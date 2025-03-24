@@ -1,34 +1,34 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import React from 'react'
+import ThemeToggle from '../sections/ThemeToggle'
 
-function App() {
-  const [count, setCount] = useState(0)
+import Motive from '../sections/Motive'
+import About from '../sections/About'
+import Cta from '../sections/Cta'
 
+import ProcessList from '../sections/ProcessList'
+import TechStack from '../sections/TechStack'
+import Testimonial from '../sections/Testimonial'
+import SocialLinks from '../sections/Socials'
+import Services from '../sections/Services'
+import ExpertiseCard from '../sections/Experience'
+
+const App = () => {
   return (
     <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
+    <div className='grid grid-cols-3  max-md:grid-cols-2 max-sm:grid-cols-1   mx-14 gap-2 my-11'>
+<ThemeToggle />
+<Motive />
+<About />
+<Cta />
+<ProcessList />
+<TechStack />
+<Testimonial />
+<SocialLinks />
+ <Services  />
+ <ExpertiseCard />
+</div>
     </>
+    
   )
 }
 

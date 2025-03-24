@@ -11,6 +11,8 @@ import Testimonial from '../sections/Testimonial'
 import SocialLinks from '../sections/Socials'
 import Services from '../sections/Services'
 import ExpertiseCard from '../sections/Experience'
+import FAQ from '../sections/Faq'
+import Projects from '../sections/Projects'
 
 const App = () => {
   return (
@@ -26,6 +28,8 @@ const App = () => {
 <SocialLinks />
  <Services  />
  <ExpertiseCard />
+ <FAQ />
+ <Projects />
 </div>
     </>
     
@@ -33,3 +37,4 @@ const App = () => {
 }
 
 export default App
+

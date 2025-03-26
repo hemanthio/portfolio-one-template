@@ -7,8 +7,9 @@ const Cta = () => {
   const [isHovered, setIsHovered] = useState(false);
 
   return (
-    <div className="w-full aspect-square bg-[#F5F5F5] rounded-[18px] font-inter flex flex-col gap-6 items-center justify-center">
-      <h1 className="text-black/70 text-center text-base">start you online journey in weeks, not months</h1>
+    <div className="w-full aspect-square bg-white rounded-[18px] font-inter flex flex-col gap-6 items-center justify-center">
+      <h1 className="text-black/90 text-center font-[inter] 
+      tracking-[-0.7px]  text-xl ">need a website, we've got you covered!</h1>
       <div className="flex">
         <div
           className="flex gap-4 cursor-pointer text-white items-center py-3 pr-4 pl-8 bg-[#F15024] rounded-full"

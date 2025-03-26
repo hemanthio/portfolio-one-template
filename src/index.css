@@ -13,7 +13,7 @@ body {
 
 /* Dark Mode */
 .dark body {
-  @apply bg-gray-900 text-white;
+  @apply bg-[#191919] text-white;
 }
 
 

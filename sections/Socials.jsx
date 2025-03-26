@@ -34,8 +34,8 @@ const SocialLinks = () => {
   };
 
   return (
-    <div className="w-full aspect-square bg-black rounded-[18px] p-6 flex flex-col">
-      <h2 className="text-white text-2xl font-bold text-center mb-8">SOCIALS</h2>
+    <div className="w-full aspect-square bg-white rounded-[18px] p-6 flex flex-col">
+      <h2 className="text-gray-400 text-sm font-medium  mb-8">SOCIALS</h2>
       
       <div className="relative flex-1 w-full">
         <div className="absolute inset-0 flex items-center justify-center">

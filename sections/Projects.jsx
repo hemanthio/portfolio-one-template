@@ -41,9 +41,9 @@ const Projects = () => {
   ];
 
   return (
-    <div className="w-full aspect-square rounded-[18px] bg-gray-50 p-6 overflow-hidden border border-gray-200">
+    <div className="w-full aspect-square rounded-[18px] bg-white p-6 overflow-hidden border border-gray-200">
       {/* Header */}
-      <h2 className="text-base font-semibold text-gray-800 mb-4">OUR PROJECTS</h2>
+      <h2 className="text-sm font-medium text-gray-400 mb-4">OUR PROJECTS</h2>
       
       {/* Projects list */}
       <div className="space-y-3 mb-4 h-[calc(100%-3rem)] overflow-y-auto">

@@ -160,7 +160,7 @@ const FAQ = () => {
   const previewQuestions = faqs.slice(0, 3);
 
   return (
-    <div className="w-full aspect-square rounded-[18px] bg-white p-6 overflow-hidden border border-gray-200 relative">
+    <div className="w-full aspect-square rounded-[18px] dark:bg-black bg-white p-6 overflow-hidden  relative">
       <h2 className="text-sm font-medium text-gray-400 mb-4">
         FREQUENTLY ASKED QUESTIONS
       </h2>
@@ -169,17 +169,17 @@ const FAQ = () => {
         {previewQuestions.map((faq, index) => (
           <div
             key={index}
-            className="bg-white p-4 rounded-lg shadow-xs border border-gray-100 backdrop-blur-sm opacity-70"
+            className="bg-white dark:bg-[#686666]/40 p-4 rounded-lg shadow-xs border border-gray-100 backdrop-blur-sm opacity-70"
           >
-            <h3 className="text-base font-medium text-gray-700">{faq.question}</h3>
+            <h3 className="text-base font-medium dark:text-white text-gray-700">{faq.question}</h3>
           </div>
         ))}
-        <div className="absolute inset-0 bg-white backdrop-blur-md opacity-50 pointer-events-none"></div>
+        <div className="absolute inset-0 bg-white  dark:bg-black backdrop-blur-md opacity-50 pointer-events-none"></div>
       </div>
 
       <button
         onClick={() => setShowOverlay(true)}
-        className="w-full py-3 cursor-pointer  text-white bg-black font-medium rounded-lg mt-auto"
+        className="w-full py-3 cursor-pointer dark:bg-white dark:text-black  text-white bg-black font-medium rounded-lg mt-auto"
       >
         View all questions →
       </button>

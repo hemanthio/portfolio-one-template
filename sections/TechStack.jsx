@@ -16,7 +16,7 @@ const TechStack = () => {
   return (
     <div className="p-4 w-full aspect-square rounded-[18px] flex justify-center items-center bg-white dark:bg-black">
       <div className='h-full w-full flex flex-col'>
-        <h2 className=" text-gray-400 dark:text-white text-sm font-medium  mb-auto pt-4 pl-4">TECH STACK</h2>
+        <h2 className=" text-gray-400  text-sm font-medium  mb-auto pt-4 pl-4">TECH STACK</h2>
         <div className="flex flex-wrap gap-2 justify-center items-center px-4 pb-22">
           {techStackItems.map((item, index) => (
             <span
@@ -24,7 +24,7 @@ const TechStack = () => {
               className={`
                 text-sm px-3 py-1 rounded-full
                 ${item.isHighlighted
-                  ? 'dark:bg-white bg-black border-black text-white dark:text-gray-500'
+                  ? 'dark:bg-white bg-black border-black text-white dark:text-gray-900'
                   : 'bg-transparent dark:text-white text-gray-800 border dark:border-white border-black/40'}
               `}
             >

@@ -4,7 +4,7 @@ import React from 'react'
 
 const ThemeToggle = () => {
   return (
-    <div className="w-full aspect-square rounded-[18px] bg-white flex items-center justify-center">
+    <div className="w-full aspect-square rounded-[18px] bg-white dark:bg-black flex items-center justify-center">
         <ToggleButton />
     </div>
   )

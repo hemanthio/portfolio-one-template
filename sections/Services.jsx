@@ -48,7 +48,7 @@ const Services = () => {
   ];
 
   return (
-    <div className="w-full aspect-square bg-white dark:bg-neutral-900 p-6 rounded-2xl flex flex-col">
+    <div className="w-full aspect-square bg-white dark:bg-black p-6 rounded-2xl flex flex-col">
       <h2 className="text-gray-400 text-sm font-medium mb-4">SERVICES</h2>
       <div className="flex flex-col justify-center space-y-4 flex-grow">
         {serviceItems.map((service, index) => (

@@ -7,8 +7,8 @@ const Cta = () => {
   const [isHovered, setIsHovered] = useState(false);
 
   return (
-    <div className="w-full aspect-square bg-white rounded-[18px] font-inter flex flex-col gap-6 items-center justify-center">
-      <h1 className="text-black/90 text-center font-[inter] 
+    <div className="w-full aspect-square bg-white dark:bg-black rounded-[18px] font-inter flex flex-col gap-6 items-center justify-center">
+      <h1 className="text-black/90 dark:text-white/80 text-center font-[inter] 
       tracking-[-0.7px]  text-xl ">need a website, we've got you covered!</h1>
       <div className="flex">
         <div
